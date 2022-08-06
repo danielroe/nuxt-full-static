@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "nuxt-full-static-playground",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi generate",
+    "ionic:build": "pnpm build"
+  },
+  "devDependencies": {
+    "nuxt": "npm:nuxt3@3.0.0-rc.6-27661960.60656df",
+    "nuxt-full-static": "latest"
+  }
+}

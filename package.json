@@ -1,0 +1,84 @@
+{
+  "name": "nuxt-full-static",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "danielroe/nuxt-full-static",
+  "keywords": [
+    "nuxt",
+    "module",
+    "nuxt-module",
+    "static",
+    "ssg"
+  ],
+  "author": {
+    "name": "Daniel Roe <daniel@roe.dev>",
+    "url": "https://github.com/danielroe"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pnpm dev:prepare && nuxt-module-build",
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "pnpm nuxt-module-build --stub && nuxi prepare playground",
+    "docs:dev": "nuxi dev docs",
+    "docs:build": "nuxi generate docs",
+    "lint": "pnpm lint:all:eslint && pnpm lint:all:prettier",
+    "lint:all:eslint": "pnpm lint:eslint --ext .ts,.js,.mjs,.cjs .",
+    "lint:all:prettier": "pnpm lint:prettier \"{src,test}/**/*.{js,json,ts}\"",
+    "lint:eslint": "eslint --fix",
+    "lint:prettier": "prettier --write --loglevel warn",
+    "prepack": "pnpm build",
+    "prepare": "husky install",
+    "prepublishOnly": "pnpm lint && pnpm test && pinst --disable",
+    "release": "release-it",
+    "test": "echo 1 || vitest run",
+    "test:types": "tsc --noEmit",
+    "_postinstall": "husky install",
+    "postpublish": "pinst --enable"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^npm:@nuxt/kit-edge@3.0.0-rc.6-27661960.60656df",
+    "pathe": "^0.3.3"
+  },
+  "devDependencies": {
+    "@nuxt/module-builder": "^0.1.7",
+    "@nuxt/schema": "npm:@nuxt/schema-edge@3.0.0-rc.6-27661960.60656df",
+    "@nuxt/test-utils": "npm:@nuxt/test-utils-edge@3.0.0-rc.6-27661960.60656df",
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
+    "@release-it/conventional-changelog": "^5.0.0",
+    "@types/node": "^18.6.3",
+    "c8": "^7.12.0",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "expect-type": "^0.13.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "nuxt": "npm:nuxt3@3.0.0-rc.6-27661960.60656df",
+    "pinst": "^3.0.0",
+    "prettier": "^2.7.1",
+    "release-it": "^15.2.0",
+    "typescript": "^4.7.4",
+    "vitest": "^0.20.3",
+    "vue": "^3.2.37"
+  },
+  "resolutions": {
+    "nuxt-full-static": "link:."
+  },
+  "packageManager": "pnpm@7.5.0",
+  "volta": {
+    "node": "16.15.1"
+  }
+}
