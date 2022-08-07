@@ -10,9 +10,13 @@
 - [✨ &nbsp;Changelog](https://github.com/danielroe/nuxt-full-static/blob/main/CHANGELOG.md)
 - [▶️ &nbsp;Online playground](https://stackblitz.com/github/danielroe/nuxt-full-static/tree/main/playground)
 
+
 ## Features
 
 **⚠️ `nuxt-full-static` is a proof of concept. ⚠️**
+
+👉 Roadmap and progress for nuxt 3 payload extraction support: [nuxt/framework#6411
+](https://github.com/nuxt/framework/issues/6411)
 
 - Generates static payloads at build time if routes are prerendered
 - Also works in hybrid mode, rendering payloads on the server
