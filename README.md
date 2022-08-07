@@ -10,7 +10,6 @@
 - [✨ &nbsp;Changelog](https://github.com/danielroe/nuxt-full-static/blob/main/CHANGELOG.md)
 - [▶️ &nbsp;Online playground](https://stackblitz.com/github/danielroe/nuxt-full-static/tree/main/playground)
 
-
 ## Features
 
 **⚠️ `nuxt-full-static` is a proof of concept. ⚠️**
