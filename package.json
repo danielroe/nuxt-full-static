@@ -44,7 +44,7 @@
     "release": "release-it",
     "test": "echo 1 || vitest run",
     "test:types": "tsc --noEmit",
-    "_postinstall": "husky install",
+    "postinstall": "husky install",
     "postpublish": "pinst --enable"
   },
   "dependencies": {
