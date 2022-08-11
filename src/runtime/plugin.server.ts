@@ -1,7 +1,7 @@
 import { defineNuxtPlugin } from '#imports'
 
 export default defineNuxtPlugin(nuxtApp => {
-  nuxtApp.hook('app:rendered', ({ ssrContext, html }) => {
+  nuxtApp.hook('app:rendered', ({ ssrContext }) => {
     if (ssrContext.event.req.headers['x-nuxt-full-static']) {
       ssrContext.event.res.setHeader('Content-Type', 'application/json')
       ssrContext.event.res.end(
@@ -16,9 +16,8 @@ export default defineNuxtPlugin(nuxtApp => {
       return
     }
     // Add hint to Nitro prerenderer to prerender the .json file corresponding to this route
-    // TODO: use header to expose this to the prerenderer
     const url = ssrContext.url === '/' ? '/index' : ssrContext.url
-    html.head.push(`<!-- <link rel="prefetch" href="/api/_static${url}.json"> -->`)
+    ssrContext.event.res.setHeader('x-nitro-prerender', `/api/_static${url}.json`)
   })
 })
 
