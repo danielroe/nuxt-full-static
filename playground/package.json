@@ -8,7 +8,7 @@
     "ionic:build": "pnpm build"
   },
   "devDependencies": {
-    "nuxt": "npm:nuxt3@3.0.0-rc.6-27661960.60656df",
+    "nuxt": "^3.0.0-rc.7",
     "nuxt-full-static": "latest"
   }
 }
