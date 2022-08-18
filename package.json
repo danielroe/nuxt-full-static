@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "3.0.0-rc.8",
-    "pathe": "^0.3.4"
+    "pathe": "^0.3.5"
   },
   "devDependencies": {
     "@nuxt/module-builder": "^0.1.7",
@@ -58,7 +58,7 @@
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@release-it/conventional-changelog": "^5.1.0",
     "@types/node": "^18.7.2",
-    "@vitest/coverage-c8": "^0.22.0",
+    "@vitest/coverage-c8": "^0.22.1",
     "c8": "^7.12.0",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "eslint": "^8.22.0",
@@ -72,7 +72,7 @@
     "prettier": "^2.7.1",
     "release-it": "^15.3.0",
     "typescript": "^4.7.4",
-    "vitest": "^0.22.0",
+    "vitest": "^0.22.1",
     "vue": "^3.2.37"
   },
   "resolutions": {
