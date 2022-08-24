@@ -27,7 +27,7 @@ importers:
       pathe: ^0.3.5
       pinst: ^3.0.0
       prettier: ^2.7.1
-      release-it: ^15.3.0
+      release-it: ^15.4.0
       typescript: ^4.7.4
       vitest: ^0.22.1
       vue: ^3.2.37
@@ -39,7 +39,7 @@ importers:
       '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.8-27688153.422d5c4
       '@nuxt/test-utils': 3.0.0-rc.8_vue@3.2.37
       '@nuxtjs/eslint-config-typescript': 10.0.0_4rv7y5c6xz3vfxwhbrcxxi73bq
-      '@release-it/conventional-changelog': 5.1.0_release-it@15.3.0
+      '@release-it/conventional-changelog': 5.1.0_release-it@15.4.0
       '@types/node': 18.7.2
       '@vitest/coverage-c8': 0.22.1
       c8: 7.12.0
@@ -53,7 +53,7 @@ importers:
       nuxt: /nuxt3/3.0.0-rc.8-27688153.422d5c4
       pinst: 3.0.0
       prettier: 2.7.1
-      release-it: 15.3.0
+      release-it: 15.4.0
       typescript: 4.7.4
       vitest: 0.22.1
       vue: 3.2.37
@@ -1195,7 +1195,7 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@release-it/conventional-changelog/5.1.0_release-it@15.3.0:
+  /@release-it/conventional-changelog/5.1.0_release-it@15.4.0:
     resolution: {integrity: sha512-o55D822tVIoldUDj1Fp1KvenVREcEEjYOyuVNwRVnTcExFN6nWUPrH05q7Y8opT23N5snuCwPJ5bzLPEcpBvRg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1204,7 +1204,7 @@ packages:
       concat-stream: 2.0.0
       conventional-changelog: 3.1.25
       conventional-recommended-bump: 6.1.0
-      release-it: 15.3.0
+      release-it: 15.4.0
       semver: 7.3.7
     dev: true
 
@@ -6231,7 +6231,7 @@ packages:
     resolution: {integrity: sha512-NHDDGYudnvRutt/VhKFlX26IotXe1w0cmkDm6JGquh5bz/bDTw0LufSmH/GxTjEdpHEO+bVKFTwdrcGa/9XlKQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
-      type-fest: 2.18.0
+      type-fest: 2.19.0
     dev: true
 
   /nitropack/0.4.22:
@@ -7664,8 +7664,8 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /release-it/15.3.0:
-    resolution: {integrity: sha512-MI4EBGca+y4SskgBkWNIakFp/GvXfpZEMWkmqmsysPcou/L+E+sKd0oy33ovGCyLic+9SI2rv/lQ3ACgonmqdQ==}
+  /release-it/15.4.0:
+    resolution: {integrity: sha512-l7ZHfg5SHXWaAQy5gUS1dowryqjLevpXKvyNt8V7QCqqGQO/IvQEfLnc5xx4unBgJvxjt/X2f9KZ8FOzRnaT9w==}
     engines: {node: '>=14.9'}
     hasBin: true
     dependencies:
@@ -8537,11 +8537,6 @@ packages:
   /type-fest/1.4.0:
     resolution: {integrity: sha512-yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA==}
     engines: {node: '>=10'}
-    dev: true
-
-  /type-fest/2.18.0:
-    resolution: {integrity: sha512-pRS+/yrW5TjPPHNOvxhbNZexr2bS63WjrMU8a+VzEBhUi9Tz1pZeD+vQz3ut0svZ46P+SRqMEPnJmk2XnvNzTw==}
-    engines: {node: '>=12.20'}
     dev: true
 
   /type-fest/2.19.0:
