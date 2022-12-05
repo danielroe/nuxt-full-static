@@ -24,7 +24,7 @@ importers:
       husky: ^8.0.1
       lint-staged: ^13.0.3
       nuxt: npm:nuxt3@3.0.0-rc.9-27702110.abd5dc5
-      pathe: ^0.3.5
+      pathe: ^1.0.0
       pinst: ^3.0.0
       prettier: ^2.7.1
       release-it: ^15.4.0
@@ -33,7 +33,7 @@ importers:
       vue: ^3.2.37
     dependencies:
       '@nuxt/kit': 3.0.0-rc.8
-      pathe: 0.3.5
+      pathe: 1.0.0
     devDependencies:
       '@nuxt/module-builder': 0.1.7
       '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.9-27702110.abd5dc5
@@ -7231,6 +7231,10 @@ packages:
 
   /pathe/0.3.5:
     resolution: {integrity: sha512-grU/QeYP0ChuE5kjU2/k8VtAeODzbernHlue0gTa27+ayGIu3wqYBIPGfP9r5xSqgCgDd4nWrjKXEfxMillByg==}
+
+  /pathe/1.0.0:
+    resolution: {integrity: sha512-nPdMG0Pd09HuSsr7QOKUXO2Jr9eqaDiZvDwdyIhNG5SHYujkQHYKDfGQkulBxvbDHz8oHLsTgKN86LSwYzSHAg==}
+    dev: false
 
   /pathval/1.1.1:
     resolution: {integrity: sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==}
