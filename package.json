@@ -60,7 +60,7 @@
     "@types/node": "^18.7.2",
     "@vitest/coverage-c8": "^0.22.1",
     "c8": "^8.0.0",
-    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "conventional-changelog-conventionalcommits": "^6.1.0",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
