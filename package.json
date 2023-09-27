@@ -70,7 +70,7 @@
     "nuxt": "npm:nuxt3@3.0.0-rc.9-27702110.abd5dc5",
     "pinst": "^3.0.0",
     "prettier": "^2.7.1",
-    "release-it": "^15.4.0",
+    "release-it": "^16.2.1",
     "typescript": "^5.1.6",
     "vitest": "^0.22.1",
     "vue": "^3.2.37"
