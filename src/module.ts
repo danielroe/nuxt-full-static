@@ -7,7 +7,7 @@ export default defineNuxtModule({
     name: 'nuxt-full-static',
     configKey: 'static',
     compatibility: {
-      nuxt: '^3.0.0-rc.6-27648600.f58aa81',
+      nuxt: '>=3.0.0-rc.6-27648600.f58aa81',
     },
   },
   setup(_options, nuxt) {
