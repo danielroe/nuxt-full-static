@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> This implementation is now built-in to Nuxt 3+ and this module is no longer required.
+
 # Nuxt Full Static (experimental)
 
 [![npm version][npm-version-src]][npm-version-href]
